@@ -19,9 +19,9 @@ import styled from 'styled-components/native';
  flex-direction: row;
  `;
  export const Input = styled.TextInput.attrs({
-     placeholderTextColor: 'rgba(255,255,255,0.20)'
+     placeholderTextColor: 'rgba(255,255,255,0.90)'
  })`
- background: rgba(0,0,0,0.20);
+ background: rgba(0,0,0,0.90);
  width: 90%;
  font-size: 17px;
  color: #FFF;
