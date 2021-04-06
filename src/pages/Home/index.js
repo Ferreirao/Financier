@@ -25,7 +25,7 @@ export default function Home() {
     <Header />
     <Container>
       <Nome>
-        Sávio
+        {user && user.nome}
       </Nome>
       <Saldo>
         R$ 123,00
